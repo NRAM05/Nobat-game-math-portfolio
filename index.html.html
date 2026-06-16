@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nobat Ram | Senior Game Mathematician Portfolio</title>
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --card: #ffffff;
+      --text: #1d2433;
+      --muted: #5f6b7a;
+      --line: #e3e7ee;
+      --accent: #283a5f;
+      --accent-soft: #eef3ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 36px 22px 60px;
+    }
+    header {
+      background: linear-gradient(135deg, #1d2433, #334b7a);
+      color: white;
+      border-radius: 22px;
+      padding: 42px;
+      margin-bottom: 24px;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 38px;
+      letter-spacing: -0.5px;
+    }
+    header h2 {
+      margin: 0 0 24px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #dce6ff;
+    }
+    a { color: inherit; }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 14px;
+    }
+    .contact span {
+      background: rgba(255,255,255,0.12);
+      padding: 7px 11px;
+      border-radius: 999px;
+    }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 22px rgba(30, 40, 60, 0.04);
+    }
+    h3 {
+      margin: 0 0 14px;
+      font-size: 23px;
+      color: var(--accent);
+    }
+    h4 {
+      margin: 20px 0 8px;
+      font-size: 17px;
+      color: var(--text);
+    }
+    p { margin: 0 0 12px; }
+    ul {
+      margin: 8px 0 0 20px;
+      padding: 0;
+    }
+    li { margin-bottom: 7px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .pill {
+      background: var(--accent-soft);
+      color: var(--accent);
+      padding: 7px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .case {
+      border-left: 4px solid var(--accent);
+      background: #fbfcff;
+      padding: 16px 18px;
+      border-radius: 12px;
+      margin-top: 12px;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .note {
+      background: #fff8e6;
+      border: 1px solid #ffe4a8;
+      color: #5f4a16;
+    }
+    .highlight {
+      background: #f4f7ff;
+      border: 1px solid #dfe8ff;
+    }
+    .timeline {
+      border-left: 3px solid var(--line);
+      padding-left: 18px;
+      margin-top: 10px;
+    }
+    .timeline-item {
+      margin-bottom: 18px;
+      position: relative;
+    }
+    .timeline-item:before {
+      content: "";
+      width: 11px;
+      height: 11px;
+      background: var(--accent);
+      border-radius: 50%;
+      position: absolute;
+      left: -25px;
+      top: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 26px;
+    }
+    @media (max-width: 760px) {
+      header { padding: 30px 24px; }
+      header h1 { font-size: 30px; }
+      .grid { grid-template-columns: 1fr; }
+      section { padding: 22px; }
+      table { font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Nobat Ram</h1>
+      <h2>Senior Game Mathematician & Game Designer | Slot Math, RTP Strategy, Game Mechanics & PAR Sheets</h2>
+      <div class="contact">
+        <span>Email: enternram@gmail.com</span>
+        <span>Phone: 9911840081</span>
+        <span>Location: Mahendergarh, Haryana, India</span>
+        <span>LinkedIn: <a href="https://www.linkedin.com/in/nobat-ram" target="_blank">linkedin.com/in/nobat-ram</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h3>Professional Summary</h3>
+      <p>
+        Senior Game Mathematician and Game Designer with 7+ years of overall experience across online, social, and land-based casino games. I specialize in building mathematically strong, commercially viable, and player-focused slot game experiences by combining probability, RTP strategy, volatility design, feature balancing, and practical game design thinking.
+      </p>
+      <p>
+        My expertise covers RTP calculation, volatility tuning, hit-frequency balancing, PAR sheet development, reel and symbol configuration, payline and ways-to-win design, free games, bonus rounds, jackpots, multipliers, wild mechanics, symbol upgrades, perceived persistence, and multi-level linked progressive jackpot concepts.
+      </p>
+      <p>
+        I have worked on perceived persistence games, progressively linked jackpot games, match-three-style concepts, wild variation games, hold-and-spin mechanics, bingo-style games, metamorphic features, and time-persistent feature games. I am comfortable taking a game from concept and math design through prototype support, simulation validation, implementation review, and final production alignment.
+      </p>
+      <p>
+        I also use modern AI tools such as Claude and ChatGPT Plus to improve productivity in simulation testing, logic review, documentation, test-case preparation, and structured analysis, while ensuring that all final mathematical outputs are validated through domain expertise and statistical checks.
+      </p>
+    </section>
+
+    <section class="highlight">
+      <h3>What I Bring to Senior Game Math / Design Roles</h3>
+      <div class="grid">
+        <div>
+          <h4>Mathematical Ownership</h4>
+          <ul>
+            <li>End-to-end math ownership from concept to production handoff</li>
+            <li>RTP, volatility, hit frequency, jackpot contribution, and feature balancing</li>
+            <li>PAR sheet creation, simulation testing, and implementation verification</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Game Design Understanding</h4>
+          <ul>
+            <li>Strong understanding of player experience, anticipation, pacing, and retention</li>
+            <li>Ability to evaluate existing games and identify design strengths and weaknesses</li>
+            <li>Feature ideation for slots, bonuses, free games, jackpots, wilds, and persistence mechanics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Core Expertise</h3>
+      <div class="grid">
+        <div>
+          <h4>Game Mathematics</h4>
+          <ul>
+            <li>RTP calculation and target RTP alignment</li>
+            <li>Volatility design and hit-frequency balancing</li>
+            <li>PAR sheet preparation and math model documentation</li>
+            <li>Reel, symbol, payline, and ways-to-win configuration</li>
+            <li>Excel and simulation-based mathematical validation</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Game Mechanics & Feature Design</h4>
+          <ul>
+            <li>Base games, free games, bonuses, jackpots, and multipliers</li>
+            <li>Hold-and-spin, moving frames, dynamic reels, and jackpot features</li>
+            <li>Nudging, expanding, and holding wild mechanics</li>
+            <li>Symbol upgrade mechanics, mystery symbols, and split symbols</li>
+            <li>Perceived persistence and multi-level linked progressive jackpot mechanics</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pill-row">
+        <span class="pill">Senior Game Mathematics</span>
+        <span class="pill">Slot Game Design</span>
+        <span class="pill">RTP Strategy</span>
+        <span class="pill">Volatility Design</span>
+        <span class="pill">Hit Frequency</span>
+        <span class="pill">PAR Sheets</span>
+        <span class="pill">Paylines</span>
+        <span class="pill">Ways to Win</span>
+        <span class="pill">Free Games</span>
+        <span class="pill">Bonus Rounds</span>
+        <span class="pill">Jackpots</span>
+        <span class="pill">Wild Features</span>
+        <span class="pill">Perceived Persistence</span>
+        <span class="pill">MLLP</span>
+        <span class="pill">C++</span>
+        <span class="pill">C#</span>
+        <span class="pill">Excel</span>
+        <span class="pill">MATLAB</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Selected Portfolio Areas</h3>
+
+      <div class="case">
+        <h4>Slot Game Math Models & PAR Sheets</h4>
+        <p>
+          Created math models from specification documents, maintained PAR sheets, prepared help documents for developers, and supported playable prototypes to improve understanding of gameplay and math behavior.
+        </p>
+        <p class="small">Relevant skills: math specification, PAR sheets, Excel modeling, simulation review, developer support.</p>
+      </div>
+
+      <div class="case">
+        <h4>Feature Development for Casino Slot Games</h4>
+        <p>
+          Designed and optimized core game features such as base games, free games, bonuses, jackpots, multipliers, wild features, and symbol upgrade mechanics to improve player engagement and balance profitability goals.
+        </p>
+        <p class="small">Relevant skills: feature design, RTP contribution, player retention, volatility tuning, bonus pacing.</p>
+      </div>
+
+      <div class="case">
+        <h4>Perceived Persistence & MLLP Mechanics</h4>
+        <p>
+          Worked on perceived persistence mechanics used for feature triggering and multi-level linked progressive jackpot structures, focusing on feature anticipation, long-term engagement, and jackpot integration.
+        </p>
+        <p class="small">Relevant skills: persistent feature design, jackpot modeling, feature trigger logic, player engagement.</p>
+      </div>
+
+      <div class="case">
+        <h4>Wild Variation & Symbol Upgrade Systems</h4>
+        <p>
+          Developed and reviewed mechanics involving nudging wilds, expanding wilds, holding wilds, dynamic symbol upgrades, mystery symbols, split symbols, and other mechanics that add variability and excitement to gameplay.
+        </p>
+        <p class="small">Relevant skills: wild design, symbol behavior, bonus enhancement, feature balancing.</p>
+      </div>
+
+      <div class="case">
+        <h4>Implementation Review & Mathematical QA</h4>
+        <p>
+          Reviewed games during implementation to ensure that gameplay reflected the approved math model, tested mathematical outcomes through Excel and simulation code, and recommended adjustments during development.
+        </p>
+        <p class="small">Relevant skills: implementation validation, simulation testing, QA support, math audit.</p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Professional Experience</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>Game Mathematician — Ingenuity Gaming India</h4>
+          <p class="small">April 2025 – Present</p>
+          <ul>
+            <li>Developing and reviewing casino game math models, gameplay mechanics, PAR sheets, and mathematical validation structures.</li>
+            <li>Supporting game design, implementation review, and production alignment for mathematically sound and engaging game experiences.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h4>Game Mathematician — Merkur Gaming India, Gauselmann Group</h4>
+          <p class="small">October 2022 – April 2025</p>
+          <ul>
+            <li>Designed and optimized slot game mechanics including RTP, volatility, hit frequency, free games, bonuses, jackpots, multipliers, and feature contribution.</li>
+            <li>Worked on hold-and-spin, dynamic reels, moving frames, wild variations, perceived persistence, symbol upgrades, and linked progressive jackpot concepts.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h4>Senior Game Mathematician — Aristocrat Technologies, Gurgaon</h4>
+          <p class="small">August 2021 – September 2022</p>
+          <ul>
+            <li>Worked on online, social, and land-based slot game design and mathematical models.</li>
+            <li>Supported math design, implementation review, gameplay validation, and feature optimization for casino game development.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h4>IIT JEE Mathematics Faculty — Narayana Group of Schools, Hyderabad</h4>
+          <p class="small">March 2019 – August 2020</p>
+          <ul>
+            <li>Taught advanced mathematics for IIT JEE Mains and Advanced preparation, strengthening analytical, communication, and problem-solving skills.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <h4>Subject Matter Expert, Pure & Applied Mathematics — Chegg India Limited</h4>
+          <p class="small">July 2018 – February 2019</p>
+          <ul>
+            <li>Provided expert-level solutions and explanations for pure and applied mathematics problems.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Nature of Work & Responsibilities</h3>
+      <ul>
+        <li>Own end-to-end mathematical design for slot and casino games, from early game-design feasibility to final production-ready math documentation.</li>
+        <li>Evaluate GDDs and concept documents using mathematical feasibility checks, including RTP potential, volatility range, feature frequency, hit rate, max win behavior, jackpot contribution, and commercial viability.</li>
+        <li>Convert game concepts into structured math models, including reel strips, symbol weights, paytables, paylines, ways-to-win logic, bonus trigger logic, feature contribution, and multi-RTP configurations.</li>
+        <li>Design and enhance game features such as free games, bonus rounds, hold-and-spin, wild variations, symbol upgrades, perceived persistence, jackpots, multipliers, and dynamic reel or frame mechanics.</li>
+        <li>Prepare and maintain detailed PAR sheets, probability breakdowns, RTP splits, hit-frequency reports, volatility analysis, feature documentation, and developer-facing math notes.</li>
+        <li>Build and validate Excel models and simulation outputs to confirm RTP, standard deviation, feature behavior, edge cases, max exposure, cap impact, and long-run statistical accuracy.</li>
+        <li>Review implemented games against approved math models to identify mismatches in rules, symbols, feature behavior, pay evaluation, random weights, and payout calculations.</li>
+        <li>Collaborate with game designers, artists, developers, QA, producers, and product teams to balance mathematical accuracy with player experience, anticipation, pacing, retention, and market expectations.</li>
+        <li>Use AI tools such as Claude and ChatGPT Plus to speed up simulation review, logic cross-checking, test-case generation, documentation drafting, code review support, probability validation, and structured analysis while keeping final mathematical decisions human-reviewed.</li>
+        <li>Analyze competitor games, market trends, player-facing mechanics, and performance data to propose feature improvements and future game concepts.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Tools & Technical Skills</h3>
+      <div class="grid">
+        <div>
+          <h4>Mathematics, Modeling & Simulation</h4>
+          <ul>
+            <li>Advanced Excel modeling, PAR sheets, RTP workbooks, probability tables, and volatility analysis</li>
+            <li>C++ and C# simulation development/review using Visual Studio</li>
+            <li>Simulation validation, long-run RTP testing, edge-case testing, and statistical result verification</li>
+            <li>Mathematica, MATLAB, Maple++, Excel macros, spreadsheet automation, and Beyond Compare</li>
+            <li>Paytable balancing, reel/symbol weighting, hit-frequency analysis, max win and exposure review</li>
+          </ul>
+        </div>
+        <div>
+          <h4>AI, Documentation & Workflow Tools</h4>
+          <ul>
+            <li>Claude and ChatGPT Plus for simulation logic review, code explanation, test-case generation, documentation support, and math-model cross-checking</li>
+            <li>AI-assisted analysis for GDD review, rule comparison, feature feasibility notes, probability breakdowns, and structured QA checklists</li>
+            <li>Microsoft Office, Excel, PowerPoint, and professional documentation for math files, help docs, and stakeholder communication</li>
+            <li>Strong communication, presentation, leadership, negotiation, time-management, and cross-functional collaboration skills</li>
+            <li>Game design sense for online, mobile, social, and land-based casino games with focus on player experience and commercial performance</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Education & Certifications</h3>
+      <table>
+        <tr>
+          <th>Qualification / Course</th>
+          <th>Institute / Provider</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>M.Sc. Mathematics</td>
+          <td>IIT Madras</td>
+          <td>2018</td>
+        </tr>
+        <tr>
+          <td>B.Sc. (Hons.) Mathematics</td>
+          <td>Ramjas College, University of Delhi</td>
+          <td>2016</td>
+        </tr>
+        <tr>
+          <td>CSIR NET Qualified</td>
+          <td>CSIR UGC</td>
+          <td>June 2019</td>
+        </tr>
+        <tr>
+          <td>Excel Skills for Business: Essentials, Intermediate I, Intermediate II, Advanced</td>
+          <td>Coursera</td>
+          <td>Coursera Certificate</td>
+        </tr>
+        <tr>
+          <td>Machine Learning, Mathematics for Machine Learning, SQL for Data Science</td>
+          <td>Coursera</td>
+          <td>Coursera Certificate</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h3>Industry Exposure</h3>
+      <div class="case">
+        <h4>ICE 2024, London & ICE 2025, Spain</h4>
+        <p>
+          Attended major international casino and gaming exhibitions to explore the latest gaming innovations, technologies, market trends, and product directions shaping the global gaming and betting industry.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Languages & Interests</h3>
+      <div class="grid">
+        <div>
+          <h4>Languages</h4>
+          <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Haryanvi</li>
+            <li>Punjabi</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Interests</h4>
+          <ul>
+            <li>Badminton</li>
+            <li>Travel</li>
+            <li>Continuous learning</li>
+            <li>Game design and exploring new games</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Confidentiality Note</h3>
+      <p>
+        This portfolio uses sanitized project descriptions and does not disclose confidential company files, proprietary game math, unreleased game details, client-sensitive information, or internal documentation.
+      </p>
+    </section>
+
+    <section class="note">
+      <h3>To Customize Before Publishing</h3>
+      <ul>
+        <li>Confirm whether you want to show your phone number publicly.</li>
+        <li>Add approved screenshots, sample math tables, or sanitized project snapshots only if permitted.</li>
+        <li>Rename this file to <strong>index.html</strong> before uploading to GitHub Pages.</li>
+      </ul>
+    </section>
+
+    <footer>
+      © Nobat Ram — Senior Game Mathematics Portfolio
+    </footer>
+  </main>
+</body>
+</html>
