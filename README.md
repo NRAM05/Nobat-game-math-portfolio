@@ -8,11 +8,9 @@ This repository hosts my portfolio website for senior game mathematics and game 
 
 The live portfolio page is designed to showcase my experience as a Senior Game Mathematician and Game Designer across online, social, and land-based casino games.
 
-Once GitHub Pages is enabled, the portfolio will be available at:
 
-`https://your-github-username.github.io/your-repository-name/`
+`https://nram05.github.io/Nobat-game-math-portfolio/`
 
-Replace the above URL with your final GitHub Pages link after publishing.
 
 ## About Me
 
@@ -61,34 +59,11 @@ I use AI tools such as Claude and ChatGPT Plus to improve productivity in areas 
 
 All final mathematical decisions, RTP results, simulation conclusions, and production recommendations are reviewed and validated using domain expertise, statistical checks, and standard game math practices.
 
-## Repository Structure
 
-```text
-.
-├── index.html      # Main portfolio website
-└── README.md       # Repository overview
-```
-
-## How to Publish with GitHub Pages
-
-1. Rename the portfolio HTML file to `index.html`.
-2. Upload `index.html` to the root of this repository.
-3. Upload this `README.md` file to the root of the repository.
-4. Go to repository **Settings**.
-5. Open **Pages** from the left menu.
-6. Under **Build and deployment**, choose **Deploy from a branch**.
-7. Select branch: `main`.
-8. Select folder: `/root`.
-9. Click **Save**.
-10. Wait a few minutes for GitHub Pages to generate the live website link.
-
-## LinkedIn Featured Section
-
-Suggested title:
 
 **Senior Game Mathematics Portfolio | Slot Math, RTP Models & Game Design**
 
-Suggested description:
+
 
 Portfolio highlighting my experience in senior game mathematics, slot game design, RTP modeling, volatility tuning, PAR sheet development, feature balancing, simulation validation, and selected casino game mechanics across online, social, and land-based games.
 
