@@ -1,4 +1,4 @@
-# Nobat Ram — Senior Game Mathematics Portfolio
+# Nobat Ram — Senior Game Mathematician Portfolio
 
 Welcome to my professional portfolio repository.
 
